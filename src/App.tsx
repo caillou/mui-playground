@@ -1,18 +1,11 @@
-
-import { Grid } from './components/grid'
+import { Grid } from "./components/grid";
 
 function App() {
-
-
   return (
     <>
-<Grid></Grid>
-
-
-
-
+      <Grid></Grid>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
