@@ -1,14 +1,13 @@
-import { useState } from 'react'
+
+import { Grid } from './components/grid'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+<Grid></Grid>
 
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
 
 
 
